@@ -103,7 +103,7 @@ function Landing({ onLogin }:{ onLogin:()=>void }){
       </header>
       <main className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 py-12">
         <div>
-          <h1 className="text-4xl font-extrabold tracking-tight text-gray-900">Inspections your team actually finishes.</h1>
+          <h1 className="text-4xl font-extrabold tracking-tight text-gray-900">Inspections you can control.</h1>
           <p className="mt-4 text-gray-600">Build templates, run inspections, track actions and export PDF reports. Multi-site, admin controls, and real-time collaboration built-in.</p>
           <div className="mt-6 flex gap-3">
             <Button onClick={onLogin}>Get started</Button>
